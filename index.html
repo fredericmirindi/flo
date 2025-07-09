@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frederic Mirindi - PhD Candidate & AI Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h3>Frederic Mirindi</h3>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#conferences" class="nav-link">Conferences</a></li>
+                <li><a href="#ai-implementation" class="nav-link">AI Implementation</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero-container">
+                <div class="hero-background">
+                    <div class="particles-container" id="particles-container"></div>
+                    <div class="geometric-shapes"></div>
+                </div>
+                
+                <div class="hero-content">
+                    <div class="profile-section">
+                        <div class="profile-image-container">
+                            <div class="profile-image-wrapper">
+                                <img src="frederic.mirindi.jpg" alt="Frederic Mirindi" class="profile-image">
+                                <div class="profile-glow"></div>
+                                <div class="floating-elements">
+                                    <div class="floating-element"></div>
+                                    <div class="floating-element"></div>
+                                    <div class="floating-element"></div>
+                                    <div class="floating-element"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-text">
+                            <h1 class="hero-title">
+                                <span class="gradient-text">Frederic Mirindi</span>
+                            </h1>
+                            <h2 class="hero-subtitle">PhD Candidate - Economics & Econometrics</h2>
+                            <h3 class="hero-tertiary">Founder - ThinkBit Edge Corp.</h3>
+                            <p class="hero-description">
+                                Leading researcher specializing in artificial intelligence applications in economic analysis, with extensive experience in machine learning models for economic forecasting and policy analysis.
+                            </p>
+                            
+                            <div class="achievement-cards">
+                                <div class="achievement-card">
+                                    <div class="achievement-number">20+</div>
+                                    <div class="achievement-label">Published Papers</div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-number">25+</div>
+                                    <div class="achievement-label">Conference Presentations</div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-number">15+</div>
+                                    <div class="achievement-label">AI Models Developed</div>
+                                </div>
+                                <div class="achievement-card">
+                                    <div class="achievement-number">5+</div>
+                                    <div class="achievement-label">Years Experience</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2 class="section-title">Research Areas</h2>
+                <div class="research-grid">
+                    <div class="research-card">
+                        <h3>AI-Powered Economic Forecasting</h3>
+                        <p>Development of machine learning models for accurate economic predictions and trend analysis</p>
+                        <div class="research-applications">
+                            <span class="tag">GDP Forecasting</span>
+                            <span class="tag">Market Prediction</span>
+                            <span class="tag">Economic Indicators</span>
+                        </div>
+                        <div class="research-demo">
+                            <button class="btn btn--primary demo-btn" data-demo="forecasting">Interactive Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>Automated Policy Analysis</h3>
+                        <p>Using AI to evaluate economic policy impacts and optimize decision-making processes</p>
+                        <div class="research-applications">
+                            <span class="tag">Policy Impact Assessment</span>
+                            <span class="tag">Regulatory Analysis</span>
+                            <span class="tag">Decision Support</span>
+                        </div>
+                        <div class="research-demo">
+                            <button class="btn btn--primary demo-btn" data-demo="policy">Interactive Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>Natural Language Processing in Economics</h3>
+                        <p>Applying NLP techniques to analyze economic texts, reports, and market sentiment</p>
+                        <div class="research-applications">
+                            <span class="tag">Sentiment Analysis</span>
+                            <span class="tag">Text Mining</span>
+                            <span class="tag">Report Generation</span>
+                        </div>
+                        <div class="research-demo">
+                            <button class="btn btn--primary demo-btn" data-demo="nlp">Interactive Demo</button>
+                        </div>
+                    </div>
+                    
+                    <div class="research-card">
+                        <h3>Algorithmic Trading Systems</h3>
+                        <p>Development of AI-driven trading algorithms and market prediction systems</p>
+                        <div class="research-applications">
+                            <span class="tag">Trading Bots</span>
+                            <span class="tag">Risk Management</span>
+                            <span class="tag">Portfolio Optimization</span>
+                        </div>
+                        <div class="research-demo">
+                            <button class="btn btn--primary demo-btn" data-demo="trading">Interactive Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <h3>Artificial Intelligence (AI) and Automation for Driving Green Transportation Systems: A Comprehensive Review</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Transportation Research</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>BIM-Driven Offsite Construction: Pathway to Efficiency, Functionality and Sustainability</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Construction Innovation</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Ensemble machine learning algorithms for efficient prediction of compressive strength of concrete containing tyre rubber and brick powder</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Materials Science</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Structural performance of boards through nanoparticle reinforcement: An advance review</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Materials Engineering</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Applications of machine learning algorithms on the compressive strength of laterite blocks made with metakaolin-based geopolymer and sugarcane molasses</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Construction Materials</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>An Advance Review of Urban-AI and Ethical Considerations</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Urban Studies</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Performance of machine learning algorithms to evaluate the physico-mechanical properties of nanoparticle panels</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Materials Science</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Advanced evaluation of BIM-GenAI using OpenAI o1 and ethical considerations</h3>
+                        <div class="publication-meta">
+                            <span class="journal">AI in Construction</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>Review: The Role of Artificial Intelligence in Building Information Modeling</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Construction Technology</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>A Review on Aerospace-AI, with Ethics and Implications</h3>
+                        <div class="publication-meta">
+                            <span class="journal">Aerospace Engineering</span>
+                            <span class="year">2024</span>
+                            <span class="status status--success">Published</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conferences Section -->
+        <section id="conferences" class="section">
+            <div class="container">
+                <h2 class="section-title">Conference Presentations</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">March 2025</div>
+                        <div class="timeline-content">
+                            <h3>MARBLE 2025 – 6th International Conference on Mathematical Research for Blockchain Economy</h3>
+                            <p class="location">Athens, Greece</p>
+                            <p class="role">Speaker</p>
+                            <p class="topic">Adaptive Proof-of-Stake Governance: A Game-Theoretic Approach to Consensus Mechanisms</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2024</div>
+                        <div class="timeline-content">
+                            <h3>Progressive Economics Forum Sessions, 59th Annual Meetings of the Canadian Economics Association</h3>
+                            <p class="location">Université du Québec à Montréal</p>
+                            <p class="role">Presenter</p>
+                            <p class="topic">Family Size and Child Outcomes in Sub-Saharan Africa: The Role of Social Norms</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">February 2024</div>
+                        <div class="timeline-content">
+                            <h3>Graduate Seminar Series, Centre for the Study of Women and Gender</h3>
+                            <p class="location">University of Warwick</p>
+                            <p class="role">Presenter</p>
+                            <p class="topic">Digital Feminism: Intersectionality and Activism in the Age of Social Media</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">January 2024</div>
+                        <div class="timeline-content">
+                            <h3>Graduate Seminars in Economic and Social History</h3>
+                            <p class="location">University of Oxford</p>
+                            <p class="role">Presenter</p>
+                            <p class="topic">From Rubber to Cobalt: Evolving Patterns of Resource Exploitation and Social Impact in the Democratic Republic of Congo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">December 2023</div>
+                        <div class="timeline-content">
+                            <h3>TheoriseHAI Workshop, 12th International Conference on Human-Agent Interaction (HAI)</h3>
+                            <p class="location">Swansea, UK</p>
+                            <p class="role">Presenter</p>
+                            <p class="topic">A Review of Hybrid Machine Learning Approaches for Enhancing Human-Agent Interaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Implementation Section -->
+        <section id="ai-implementation" class="section">
+            <div class="container">
+                <h2 class="section-title">AI Implementation Tools</h2>
+                <div class="ai-tools-grid">
+                    <div class="ai-tool-card">
+                        <h3>Economic Forecasting Model</h3>
+                        <p>Interactive AI model for economic predictions</p>
+                        <div class="tool-interface">
+                            <div class="input-group">
+                                <label for="forecast-period">Forecast Period (months):</label>
+                                <input type="number" id="forecast-period" min="1" max="60" value="12" class="form-control">
+                            </div>
+                            <div class="input-group">
+                                <label for="economic-indicator">Economic Indicator:</label>
+                                <select id="economic-indicator" class="form-control">
+                                    <option value="gdp">GDP Growth</option>
+                                    <option value="inflation">Inflation Rate</option>
+                                    <option value="unemployment">Unemployment Rate</option>
+                                    <option value="interest">Interest Rate</option>
+                                </select>
+                            </div>
+                            <button class="btn btn--primary" onclick="runForecasting()">Generate Forecast</button>
+                            <div id="forecast-result" class="result-display"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-tool-card">
+                        <h3>Policy Impact Simulator</h3>
+                        <p>Simulate the economic impact of policy changes</p>
+                        <div class="tool-interface">
+                            <div class="input-group">
+                                <label for="policy-type">Policy Type:</label>
+                                <select id="policy-type" class="form-control">
+                                    <option value="tax">Tax Policy</option>
+                                    <option value="monetary">Monetary Policy</option>
+                                    <option value="fiscal">Fiscal Policy</option>
+                                    <option value="trade">Trade Policy</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="policy-change">Policy Change (%):</label>
+                                <input type="range" id="policy-change" min="-50" max="50" value="0" class="form-control">
+                                <span id="policy-change-value">0%</span>
+                            </div>
+                            <button class="btn btn--primary" onclick="runPolicySimulation()">Simulate Impact</button>
+                            <div id="policy-result" class="result-display"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="ai-tool-card">
+                        <h3>Market Sentiment Analyzer</h3>
+                        <p>NLP-powered analysis of market sentiment</p>
+                        <div class="tool-interface">
+                            <div class="input-group">
+                                <label for="sentiment-text">Enter text to analyze:</label>
+                                <textarea id="sentiment-text" placeholder="Paste economic news or market commentary here..." class="form-control" rows="4"></textarea>
+                            </div>
+                            <button class="btn btn--primary" onclick="analyzeSentiment()">Analyze Sentiment</button>
+                            <div id="sentiment-result" class="result-display"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="bio-section">
+                        <h3>Biography</h3>
+                        <p>Frederic Mirindi is a PhD Candidate in Economics & Econometrics at the University of Manitoba. He is a leading researcher specializing in artificial intelligence applications in economic analysis. With extensive experience in machine learning models for economic forecasting and policy analysis, he has pioneered innovative approaches to understanding economic phenomena through computational methods.</p>
+                    </div>
+                    
+                    <div class="expertise-section">
+                        <h3>Areas of Expertise</h3>
+                        <div class="expertise-grid">
+                            <div class="expertise-item">Machine Learning</div>
+                            <div class="expertise-item">Economic Modeling</div>
+                            <div class="expertise-item">Data Analytics</div>
+                            <div class="expertise-item">Policy Analysis</div>
+                            <div class="expertise-item">Econometrics</div>
+                            <div class="expertise-item">AI Research</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">R</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Machine Learning</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Econometrics</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Data Analysis</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Statistical Modeling</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-level">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <div>
+                                <a href="mailto:frederic.mirindi@umanitoba.ca">frederic.mirindi@umanitoba.ca</a><br>
+                                <a href="mailto:frederic.mirindi@boothuc.ca">frederic.mirindi@boothuc.ca</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong> +1 (204) 298-4337
+                        </div>
+                        <div class="contact-item">
+                            <strong>Office:</strong> Economics Building, Room 301
+                        </div>
+                        <div class="contact-item">
+                            <strong>Office Hours:</strong> Mondays & Fridays, 8:00-10:00 AM
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
